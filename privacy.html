@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FirstIn Privacy Policy</title>
+  <style>
+    :root { --bg: #ffffff; --text: #141824; --muted: #5d6578; --accent: #2f6bff; --border: #e3e7ef; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #14161c; --text: #e9ecf2; --muted: #9099ab; --accent: #6b97ff; --border: #2b303c; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    .updated { color: var(--muted); margin: 0 0 24px; }
+    a { color: var(--accent); }
+    code { background: color-mix(in srgb, var(--border) 60%, transparent); padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+    ul { padding-left: 22px; }
+    .box { border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>FirstIn Privacy Policy</h1>
+  <p class="updated">Last updated: 9 November 2026</p>
+
+  <div class="box">
+    <strong>Short version:</strong> FirstIn does not collect, store on any server, sell or share any of your data.
+    Everything you enter stays in your own browser.
+  </div>
+
+  <h2>What FirstIn stores</h2>
+  <p>To work, FirstIn saves the following using Chrome's local extension storage (<code>chrome.storage.local</code>) on your device only:</p>
+  <ul>
+    <li>The companies you choose to watch</li>
+    <li>Your filters (keywords, excluded words, locations, remote preference, check interval)</li>
+    <li>The jobs found for you, and whether you marked them as applied or hidden</li>
+  </ul>
+  <p>This data never leaves your browser. Removing the extension deletes it.</p>
+
+  <h2>Network requests</h2>
+  <p>FirstIn only contacts the public job board APIs of the companies you watch:</p>
+  <ul>
+    <li><code>boards-api.greenhouse.io</code></li>
+    <li><code>api.lever.co</code></li>
+    <li><code>api.ashbyhq.com</code></li>
+  </ul>
+  <p>These requests only ask for a company's list of open jobs. They contain no personal information about you.
+    Like any website request, those services can see your IP address; their own privacy policies apply to that.</p>
+
+  <h2>Pages you visit</h2>
+  <p>When you open the FirstIn popup on a Greenhouse, Lever or Ashby careers page, FirstIn reads that tab's address to offer a
+    one-click "Watch" button. It does not read, record or change the content of any web page, and it does not track your browsing.</p>
+
+  <h2>What FirstIn does not do</h2>
+  <ul>
+    <li>No accounts or sign-up</li>
+    <li>No analytics, tracking, cookies or advertising</li>
+    <li>No selling or sharing of data with anyone</li>
+    <li>No remote code: everything that runs is included in the extension package</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date. If a future version adds optional
+    features that need a server (for example email alerts), they will be opt-in and described here before release.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Email <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+</main>
+</body>
+</html>
